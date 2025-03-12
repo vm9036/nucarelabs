@@ -1,0 +1,27 @@
+.main_build{
+    background-color: #06194b;
+    height: 240px;
+}
+
+.build_main_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-block: 100px;
+}
+
+.build_content h2{
+    font-size: 39px;
+    color: #ffffff;
+}
+
+.build_button button{
+    background-color: #22B6AF;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    width: 117%;
+    border-radius: 5px;
+}

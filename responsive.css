@@ -1,0 +1,47 @@
+/* Small Phones */
+@media (max-width: 480px) {
+    
+    .nav{
+        background-color: #f2fafa;
+        padding-block: 10px;
+        width: 100%;
+    }
+    
+    .top_nav {
+        align-items: center;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        gap: 10px;
+    }
+
+    .contact_info{
+        align-items: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+    body { background-color: lightgreen; }
+}
+
+/* Tablets (Portrait) */
+@media (max-width: 768px) {
+    body { background-color: lightyellow; }
+}
+
+/* Tablets (Landscape) */
+@media (max-width: 992px) {
+    body { background-color: lightpink; }
+}
+
+/* Laptops / Small Desktops */
+@media (max-width: 1200px) {
+    body { background-color: lightgray; }
+}
+
+/* Large Screens / Desktops */
+@media (max-width: 1400px) {
+    body { background-color: white; }
+}
